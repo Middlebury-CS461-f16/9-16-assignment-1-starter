@@ -17,7 +17,7 @@ window.onload = function(){
     size = size % 2 === 0 ? size + 3 : size + 2;
 
     // generate the maze (you write buildMaze())
-    var maze = buildMaze(size, size);
+    var maze = buildMaze(size);
 
     // code to test the result of maze generation -- assumes a 2D array of
     // 1s and 0s
